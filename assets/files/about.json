@@ -1,0 +1,46 @@
+{
+    "about": [
+        {
+            "_id": "6207561a1a8c6619aa156203",
+            "id": 1,
+            "l": "Collegemate will keep you updated with the upcoming Coding Contests, Hackathons, Internships and Scholarships.",
+            "__v": 0
+        },
+        {
+            "_id": "620758861a8c6619aa15620e",
+            "id": 2,
+            "l": "Mission :-",
+            "__v": 0
+        },
+        {
+            "_id": "620759021a8c6619aa156211",
+            "id": 3,
+            "l": "Our Mission is to provide a user-friendly interface for college Students where they can access all the major things required in their College education on a Single Platform.",
+            "__v": 0
+        },
+        {
+            "_id": "620759341a8c6619aa156214",
+            "id": 4,
+            "l": "Vision :-",
+            "__v": 0
+        },
+        {
+            "_id": "620759f61a8c6619aa156217",
+            "id": 5,
+            "l": "Our vision is to make students much more focussed by reducing their load of checking different applications to access information related to their college education. On Collegemate, students will be updated regularly with the upcoming Coding Competetions, Internishps and Scholarships.",
+            "__v": 0
+        },
+        {
+            "_id": "62075a7c1a8c6619aa15621c",
+            "id": 6,
+            "l": "Idea :-",
+            "__v": 0
+        },
+        {
+            "_id": "62075bd51a8c6619aa15621e",
+            "id": 7,
+            "l": "Our Idea is to centralize all the Important things related to a B.Tech (CSE,IT) Branch student, on a single platform as to increase the accessibility of data, saving their time and thus reducing the chances of missing the important Competetions, Internships and Scholarships.",
+            "__v": 0
+        }
+    ]
+}
