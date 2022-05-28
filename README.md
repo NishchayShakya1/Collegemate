@@ -6,19 +6,17 @@ An App that will keep you Updated with Coding Contests, Hackathons, Interships a
 
 - Splash Screen
 - Onboarding Screen
+- Give Info. in List(Name, Start Date, End Date, Website, Link)
+- Redirects you to the Website.
+
+# Tools
+
+- Flutter
 - Firebase Authentication
 - RESTful API(Data Fetching)
-- Cache Storage(Offline Data Management)
 
-## Getting Started
+# Version 2.0.0
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- UI Updated
+- Added 'About Me' Section
+- Added 'Share' Option 
