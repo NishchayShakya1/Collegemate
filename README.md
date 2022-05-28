@@ -1,6 +1,6 @@
 # Collegemate
 
-An App that will keep you Updated with Coding Contests, Hackathons, Internships and Scholarships.
+An App that lets you explore Coding Contests, Hackathons, Internships and Scholarships.
 
 ## Features
 
