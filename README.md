@@ -1,24 +1,30 @@
 # Collegemate
 
-An App that will keep you Updated with Coding Contests, Hackathons, Interships and Scholarships.
+An App that lets you Explore Coding Contests, Hackathons, Interships and Scholarships.
 
-# Features
+## Features
 
 - Splash Screen
 - Onboarding Screen
-- Firebase Authentication
+- Authentication
+- Give Info. in List(Name, Start Date, End Date, Website, Link)
+- Redirects you to the Website.
+
+## Tools
+
+- Flutter
+- Firebase 
 - RESTful API(Data Fetching)
-- Cache Storage(Offline Data Management)
+- MongoDB
+- Node.js
 
-## Getting Started
+# Version 2.0.0
 
-This project is a starting point for a Flutter application.
+- UI Updated
+- Added 'About Me' Section
+- Added 'Share' Option 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Download the App
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![App](https://camo.githubusercontent.com/4119974495a24ff902521597053b88b494ec1ffa3086440d542a4cf8911b33b1/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f372f37382f476f6f676c655f506c61795f53746f72655f62616467655f454e2e7376672f36343070782d476f6f676c655f506c61795f53746f72655f62616467655f454e2e7376672e706e67)](https://play.google.com/store/apps/details?id=com.nishchayshakya.collegemate)
