@@ -5,8 +5,10 @@ import 'package:collegemate/local/localdb.dart';
 import 'package:collegemate/pages/About/about_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:velocity_x/velocity_x.dart';
+
+import '../../pages/About/aboutme.dart';
 
 //import 'package:http/http.dart' as http;
 class MyDrawer extends StatefulWidget {
@@ -132,8 +134,6 @@ class _MyDrawerState extends State<MyDrawer> {
                 },
                 leading:
                     Icon(Icons.info_outline, color: context.theme.accentColor),
-                //network
-
                 title: "About App".text.color(context.accentColor).xl2.make(),
               ),
             ),
@@ -141,22 +141,28 @@ class _MyDrawerState extends State<MyDrawer> {
             Padding(
               padding: const EdgeInsets.all(4.0),
               child: ListTile(
-                onTap: () async {
-                  final url = "https://www.linkedin.com/in/nishchayshakya/";
-                  if (await canLaunch(url)) {
-                    await launch(url);
-                  } else {
-                    throw 'Could not launch $url';
-                  }
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ProfilePage()),
+                  );
+                },
+                leading:
+                    Icon(Icons.info_outline, color: context.theme.accentColor),
+                title: "About Me".text.color(context.accentColor).xl2.make(),
+              ),
+            ),
 
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(builder: (context) => AboutPage()),
-                  // );
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: ListTile(
+                onTap: () async {
+                  const urlPreview =
+                      'https://play.google.com/store/apps/details?id=com.nishchayshakya.collegemate';
+                  await Share.share(
+                      'Explore Coding Contests, Hackathons, Internships, and Scholarships\n\nDownload the App Now ↓\n\n$urlPreview');
                 },
                 leading: Icon(Icons.share, color: context.theme.accentColor),
-                //network
-
                 title: "Share".text.color(context.accentColor).xl2.make(),
               ),
             ),

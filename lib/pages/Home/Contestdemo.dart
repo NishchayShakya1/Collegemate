@@ -19,7 +19,7 @@ class _ContestdemoState extends State<Contestdemo> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SafeArea(
-            child: Container(
+      child: Container(
         padding: Vx.m12,
         child: FutureBuilder<Response>(
           future: _apiServiceProvider.getUser(),
@@ -117,7 +117,7 @@ class _ContestdemoState extends State<Contestdemo> {
                             ).p12())
                                 .color(context.cardColor)
                                 .roundedLg
-                                .square(170)
+                                .square(190)
                                 .make()
                                 .py8()
                                 .px0();
@@ -129,7 +129,7 @@ class _ContestdemoState extends State<Contestdemo> {
             }
           },
         ),
-            ),
-          ));
+      ),
+    ));
   }
 }

@@ -13,7 +13,8 @@ class Hackathondemo extends StatefulWidget {
 }
 
 class _HackathondemoState extends State<Hackathondemo> {
-  HackathonApiServiceProvider _apiServiceProvider = new HackathonApiServiceProvider();
+  HackathonApiServiceProvider _apiServiceProvider =
+      new HackathonApiServiceProvider();
 
   @override
   Widget build(BuildContext context) {
@@ -117,7 +118,7 @@ class _HackathondemoState extends State<Hackathondemo> {
                             ).p12())
                                 .color(context.cardColor)
                                 .roundedLg
-                                .square(170)
+                                .square(190)
                                 .make()
                                 .py8()
                                 .px0();

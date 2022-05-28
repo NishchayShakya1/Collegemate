@@ -13,7 +13,8 @@ class Scholarshipdemo extends StatefulWidget {
 }
 
 class _ScholarshipdemoState extends State<Scholarshipdemo> {
-  ScholarshipApiServiceProvider _apiServiceProvider = new ScholarshipApiServiceProvider();
+  ScholarshipApiServiceProvider _apiServiceProvider =
+      new ScholarshipApiServiceProvider();
 
   @override
   Widget build(BuildContext context) {
@@ -117,7 +118,7 @@ class _ScholarshipdemoState extends State<Scholarshipdemo> {
                             ).p12())
                                 .color(context.cardColor)
                                 .roundedLg
-                                .square(170)
+                                .square(200)
                                 .make()
                                 .py8()
                                 .px0();

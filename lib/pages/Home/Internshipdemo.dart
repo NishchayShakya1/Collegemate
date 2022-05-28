@@ -13,7 +13,8 @@ class Internshipdemo extends StatefulWidget {
 }
 
 class _InternshipdemoState extends State<Internshipdemo> {
-  InternshipApiServiceProvider _apiServiceProvider = new InternshipApiServiceProvider();
+  InternshipApiServiceProvider _apiServiceProvider =
+      new InternshipApiServiceProvider();
 
   @override
   Widget build(BuildContext context) {
@@ -117,7 +118,7 @@ class _InternshipdemoState extends State<Internshipdemo> {
                             ).p12())
                                 .color(context.cardColor)
                                 .roundedLg
-                                .square(170)
+                                .square(200)
                                 .make()
                                 .py8()
                                 .px0();

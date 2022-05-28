@@ -19,16 +19,16 @@ class GoogleSigninButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
         padding: EdgeInsets.all(4),
-        child: OutlineButton.icon(
+        child: OutlinedButton.icon(
           label: Text(
             'Continue With Google',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
           ),
-          shape: StadiumBorder(),
-          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-          highlightedBorderColor: Colors.white,
-          borderSide: BorderSide(color: Colors.white),
-          textColor: Colors.white,
+          // shape: StadiumBorder(),
+          // padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+          // highlightedBorderColor: Colors.white,
+          // borderSide: BorderSide(color: Colors.white),
+          // textColor: Colors.white,
           icon: FaIcon(FontAwesomeIcons.google, color: Colors.blue[400]),
           onPressed: () {
              signinMethod(context);
