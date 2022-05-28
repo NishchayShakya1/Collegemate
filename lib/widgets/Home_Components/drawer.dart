@@ -4,6 +4,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:collegemate/local/localdb.dart';
 import 'package:collegemate/pages/About/about_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -148,7 +149,7 @@ class _MyDrawerState extends State<MyDrawer> {
                   );
                 },
                 leading:
-                    Icon(Icons.info_outline, color: context.theme.accentColor),
+                    Icon(CupertinoIcons.profile_circled, color: context.theme.accentColor),
                 title: "About Me".text.color(context.accentColor).xl2.make(),
               ),
             ),
